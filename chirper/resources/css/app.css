@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    font-size: inherit; /* Allow WYSIWYG styles to apply */
+}
+
+.text-lg {
+    font-size: unset; /* Reset Tailwind's text-lg class */
+}
